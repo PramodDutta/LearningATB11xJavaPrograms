@@ -1,6 +1,6 @@
 package ex_30_Exceptions;
 
-public class Lab221_Try_Catch {
+public class Lab222_Try_Catch_Multiple {
     public static void main(String[] args) {
 
         System.out.println("1");
@@ -9,9 +9,9 @@ public class Lab221_Try_Catch {
         }catch (ArithmeticException e){
             System.out.println("ARE YOU FOOL");
         }
-//        catch (Exception e){
-//            System.out.println("ARE YOU FOOL");
-//        }
+        catch (Exception e){
+            System.out.println("ARE YOU FOOL");
+        }
         System.out.println("2");
 
 
